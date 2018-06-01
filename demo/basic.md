@@ -1,5 +1,21 @@
+---
+order: 0
+title:
+  zh-CN: 基础用法
+  en-US: Basic
+---
+
+## zh-CN
+
+包含过滤项和下拉项设置
+
+## en-US
+
+Basic
+
+````jsx
 import React, { Component } from 'react'
-import UpgradeSelect from './UpgradeSelect'
+import UpgradeSelect from 'igroot-upgrade-select/src/index'
 
 const options = [{
   label: '类型1',
@@ -22,7 +38,7 @@ const options = [{
   cname: 'leixingsi'
 }]
 
-export default class Demo extends Component {
+class App extends Component {
   render() {
     return <UpgradeSelect 
       showSearch
@@ -32,3 +48,8 @@ export default class Demo extends Component {
     />
   }
 } 
+
+ReactDOM.render(
+  <App />
+, mountNode);
+

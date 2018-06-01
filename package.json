@@ -1,7 +1,7 @@
 {
   "name": "igroot-upgrade-select",
-  "version": "0.0.1",
-  "description": "基于 Select 组件升级的下拉框组件",
+  "version": "0.0.2",
+  "description": "",
   "main": "index.js",
   "keywords": [
     "igroot"

@@ -1,2 +1,2 @@
-import Component from './Example'
+import Component from './UpgradeSelect'
 export default Component
